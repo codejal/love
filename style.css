@@ -1,0 +1,18 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/86/54/e2/8654e24e3700d309eef3a26665f5a088.jpg');
+    background-image: 100%;
+    color: white;
+}
+
+.headd{
+    font-size: 40px;
+    font-family:"Lucida Handwriting";
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.bodyy{
+    padding-left: 40px;
+    color: white;
+    width: 400px;
+}
