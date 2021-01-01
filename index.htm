@@ -9,7 +9,7 @@
 <body>
     <div class="headd">I LOVE YOU ANSHU</div>
     <div class="bodyy">
-        <br>Love can't be described.
+        <!-- <br>Love can't be described.
         <br>It has no shape, it has no form.
         <br>Love is not an object.
         <br>Love does not conform.
@@ -47,7 +47,28 @@
         <br>Love's the greatest power,
         <br>And yet it is so small.
         <br>Love's a gift from God
-        <br>To be shared amongst us all.
+        <br>To be shared amongst us all. -->
+
+
+        1)
+<br>To solve this problem we can rebuild the index to restore sequentially.
+<br>---------------------------------------------------------------------------------------------------------------
+<br>---------------------------------------------------------------------------------------------------------------
+<br>2)
+<br>This part has 4 parts, I am answering them in sequence:
+<br>Aanswer of part 1—> When we consider the wors case , then each unit of the n block and each node of b+- TREe is filled halfly. 
+<br>This occupy 1/4 th of the the total occupancy hence giving 25% occupancy.
+<br>---------------------------------------------------------------------------------------------------------------
+<br>Answer of part 2 —> Nope,it’s not possible.
+<br>when we split the n block unit , the first n/2 leaf pages are placed in one n block unit, the remaining goes to the 2nd n - block unit. hence, the order of every n block split is maintained . 
+<br>Therefore, nodes are consecutive in the n blocks.
+<br>---------------------------------------------------------------------------------------------------------------
+<br>Answer of part 3 —> When we constuct a  reg b+- TREe, the sequentiality leaf pages might not be there and therefore in the worst case , it takes one seek per leaf page.
+<br>When we try using the method of block at a time , we will be having minimum n/2 leaves for each n block., and hence we can read each of the n block in single seek, reducing the worst case by n/2.
+<br> ---------------------------------------------------------------------------------------------------------------
+<br>Answer of part 4 —> When the technique of redistribution is used among same block nodes, then they will not require any furthur seeks , but in regular b+- tree the seeks will be equal to the number of redistibution leaf pages.
+<br>Hence, its very efficient with the above scheme , also the wort case occupancy is halved.
+<br> ---------------------------------------------------------------------------------------------------------------
     </div>
 
 
